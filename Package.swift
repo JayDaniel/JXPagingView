@@ -5,8 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "JXPagingView",
-    platforms: [
-        .iOS(.v13)
+    platforms: [.macOS(.v10_12), .iOS(.v10), .watchOS(.v3)
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
