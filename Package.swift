@@ -25,5 +25,6 @@ let package = Package(
             name: "JXPagingView",
             path: "Sources/JXPagingView"),
 
-        ]
+        ],
+    swiftLanguageVersions: [.v5, .v4_2]
 )
